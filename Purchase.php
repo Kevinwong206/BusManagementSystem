@@ -38,6 +38,11 @@
                 echo "<p>&nbsp;</p>";
                 echo "<p>&nbsp;</p>";
     
+		//FOOTER
+		echo "<div id='footer'>";
+		echo "<p>Call Us Now : 0123456789 </p>";
+		echo "</div>";//end of footer
+		
         echo "</div>";// end the css of the content
         echo "</div>";// end the container of the content
 ?>

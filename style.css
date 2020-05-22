@@ -1,0 +1,138 @@
+/* Set as the default backgound or front of code written in body*/
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #fdd5de ;
+}
+
+*
+  {
+  margin: 0 auto 0 auto;
+  text-align:middle;}
+
+/*This is used to keep the menu bar aligned to the center, even when using a different size screen*/
+#container {
+  display: block; 
+  height:auto;
+  position: relative; 
+  width: 1540px;
+}
+
+/*This is used to select the background image for the top banner*/
+#mainpic {
+   background-image:url(images/bus.JPG);
+   width:1540px;
+   height:180px;
+}
+
+/*This is used to select the background image for menu listings*/
+#menu {
+   background-image:url(images/menu.png);
+   width:1540px;
+   height:48.5px;
+   float:left;
+   clear:both;
+}
+
+/*This is used to aligning the text in the menu*/
+#menu ul {
+	list-style: none;
+	padding: 60pxpx;
+	margin-left:350px;
+	width:900px;	
+}
+
+/*This is used to select the background image for menu words font and making it together in a straight line*/
+#menu a {
+	float: left;
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 17px;
+	font-size: 15px;
+}
+
+/*This is used for the center black box where all the content of the page can be seen*/
+#content {
+   width:1400px;
+   height:auto;
+   background-color: white;
+   padding-left:10px;
+   padding-right:10px;
+   padding-bottom:5px;
+}
+
+/*This is used to select the fonts for all the 'p' wordings in content*/
+#content p1{
+   color: black;
+   font: 23px Arial, Helvetica, sans-serif;
+   text-align: left;
+}
+
+/*This is used for the font, font size, font color of the table data*/
+#content td{
+   color: black;
+   width:250px;
+   font: 23px "comic sans ms";
+   text-align: center;
+}
+
+/* A different container was used with different background image*/
+#content2 {
+   width:1400px;
+   height:auto;
+   background-image: url(images/tourist.jpg);
+   padding-left:10px;
+   padding-right:10px;
+   padding-bottom:5px;
+}
+
+/*The bos for user to input their details*/
+#input-box{
+    padding:10px;
+    margin: 10px 0 ;
+    width:100%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+/*This is the sign in form with a same image with sign up form but diffrent resolution*/
+#sign-in-form{
+width:300px;
+background-color: white;
+padding:100px;
+margin:0% auto 0;
+text-align:center
+}
+
+/*This is the header 1 for sign in form*/
+#sign-in-form h1{
+    color:#1c8adb;
+    margin-bottom:50px;
+    font-size: 40px;
+}
+
+/*This is the sign up form with a same image with sign in form but diffrent resolution*/
+#sign-up-form{
+width:300px;
+height:440px;
+background-color: white;
+padding:100px;
+margin:0% auto 0;
+text-align:center
+}
+
+/*This is the header 1 for sign up form*/
+#sign-up-form h1{
+    color:#1c8adb;
+    margin-bottom:50px;
+    font-size: 40px;
+}

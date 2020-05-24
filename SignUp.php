@@ -2,7 +2,7 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>Joy Capture</title>
+<title>Bus2u Home Page</title>
 <meta charset=utf-8>
 </head>
 
@@ -53,10 +53,12 @@
             echo "</form> ";
                
         echo "</div>";
+		echo "<p>&nbsp;</p>";
+		echo "<p>&nbsp;</p>";
 		
 		//FOOTER
 		echo "<div id='footer'>";
-		echo "<p>Call Us Now : 0123456789 </p>";
+		echo "<p>Bus2U Hotline : 0123456789 </p>";
 		echo "</div>";//end of footer
 		
         echo "</div>";// end the css of the content

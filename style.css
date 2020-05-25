@@ -111,30 +111,30 @@ body {
 }
 
 /*This is to split the About Us page into 2 columns*/
-.column {
+#aboutus-column {
   float: left;
   width: 50%;
 }
 
 /* Clear floats after the columns */
-.row:after {
+#aboutus-row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.card {
+#aboutus-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
 
 /*Creates a container*/
-.container {
+#aboutus-container {
   padding: 0 16px;
 }
 
 /*Clear floats after the container*/
-.container::after, .row::after {
+#aboutus-container::after, .row::after {
   content: "";
   clear: both;
   display: table;

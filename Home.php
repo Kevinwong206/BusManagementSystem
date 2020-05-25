@@ -86,7 +86,7 @@
         echo "<tr>";
 			//Genting Highlands
 			//Genting Highlands photo
-            		echo "<td><img src='genting.jpg' height='300' width='500'></td>";
+            		echo "<td><img src='images/genting.jpg' height='300' width='500'></td>";
 			echo "<td>";
 			//title
 			echo "<a href = 'http://www.kuala-lumpur.ws/genting-highland/'><font face = 'Showcard Gothic'>Genting Highlands</font></a>";
@@ -122,7 +122,7 @@
 			echo "</h6>";		
 			echo "</td>";
 			//Cameron Highlands photo
-			echo "<td><img src='cameron.jpg' height='300' width='500'></td>";
+			echo "<td><img src='images/cameron.jpg' height='300' width='500'></td>";
         echo "</tr>";
 	   
         echo "</table>";

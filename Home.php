@@ -36,7 +36,7 @@
         echo "<p>&nbsp;</p>";
         echo "<p>&nbsp;</p> ";
 		
-				echo "<h1><center><font face = 'Showcard Gothic'><big>Popular Places to go in Penang</center></big></font></h1>";
+				echo "<h1><center><font face = 'Showcard Gothic'><big>Popular Places to go in Malaysia</center></big></font></h1>";
 			
         echo "</h1>";
 
@@ -45,90 +45,84 @@
 	//table
         echo "<table cellspacing='25'border='0' width='72%' style='background-image: url(images/homeback2.jpg)'>";
         echo "<tr>";
-			
-			//Keloksi
-			//Keloksi Photo
-            		echo "<td><img src='images/KekLokSi.jpg' height='300' width='500'></td>";
+			//Langkawi
+			//Langkawi Photo
+            echo "<td><img src='images/Langkawi.jpg' height='300' width='500'></td>";
 			echo "<td>";
 			//title
-			echo "<a href = 'http://www.penang.ws/penang-attractions/kek-lok-si.htm'><font face = 'Showcard Gothic'>Kek Lok Si</font></a>";
+			echo "<a href = 'http://www.langkawi-info.com/'><font face = 'Showcard Gothic'>Langkawi</font></a>";
 			echo "<br/><br/>";
 			//address
-			echo "<h5 align='left'><b>Address:</b> Pekan Ayer Itam, 11500 Air Itam, Penang</h5>";
+			echo "<h5 align='left'><b>Address:</b> 07000 Langkawi, Kedah</h5>";
 			echo "<br/>";
 			//phone
 			echo "<h5 align='left'><b>Phone:</b> 04-828 3317</h5>";
 			echo "<br/>";
 			//description
-            		echo "<h6>The Kek Lok Si Temple is a Buddhist temple situated in Air Itam, Penang, Malaysia. It is the largest Buddhist temple in Malaysia, 
-				  and is also an important pilgrimage centre for Buddhists from Hong Kong, the Philippines, Singapore and other countries in Southeast Asia..";
+            echo "<h6>Langkawi, officially known as Langkawi, the Jewel of Kedah, is a district and an archipelago of 99 islands in the Andaman Sea some 30 km off the mainland coast of northwestern Malaysia.
+					  The islands are a part of the state of Kedah, which is adjacent to the Thai border.";
 			echo "</h6>";
 			echo "</td>";
         echo "</tr>";
         
 		echo "<tr>";
             echo "<td>";
-			//Penang Hill
+			//Pulau Pangkor
 			//title
-			echo "<a href = 'http://penanghill.gov.my/index.php/en/'><font face = 'Showcard Gothic'>Penang Hill</font></a>";
+			echo "<a href = 'https://www.tripadvisor.com.my/Attraction_Review-g298300-d12526389-Reviews-Pangkor_Island-Pangkor_Pulau_Pangkor_Manjung_District_Perak.html'><font face = 'Showcard Gothic'>Pulau Pangkor</font></a>";
 			echo "<br/><br/>";
 			//address
-			echo "<h5 align='left'> <b> Address: </b>Jalan Stesen Bukit Bendera,Air Itam, 11500 Pulau Pinang.</h5>";
-			echo "<br/>";
-			//Email Address
-			echo "<h5 align='left'>Email:inquiries@penanghill.gov.my</h5>";
+			echo "<h5 align='left'> <b> Address: </b>Strait of Malacca</h5>";
 			echo "<br/>";
 			//description
-            		echo "<h6>Penang Hill is a hill resort comprising a group of peaks on Penang Island, Malaysia. It is located within the Air Itam suburb, 
-				  9 km west of the center of George Town. Penang Hill is also known by the Malay name Bukit Bendera, which actually refers to Flagstaff Hill, the most developed peak";
+            		echo "<h6>Pangkor Island lies just off the west coast of Peninsular Malaysia. It’s known for beaches like Teluk Nipah, Coral Bay and Pasir Giam, which connects to coral-ringed Giam Island at low tide.
+					Dating back to 1670, the ruined Dutch Fort demonstrates the island’s strategic colonial importance. Nearby, the Sacred Rock is inscribed with the Dutch East India Company symbol and a picture of a tiger carrying away a child.";
 			echo "</h6>";		
 			echo "</td>";
-			//Penang Hill photo
-			echo "<td><img src='images/PenangHill.png' height='300' width='500'></td>";
+			//Pulau Pangkor photo
+			echo "<td><img src='images/PulauPangkor.jpg' height='300' width='500'></td>";
         echo "</tr>";
             
         echo "<tr>";
-			//Entopia
-			//Entopia photo
-            		echo "<td><img src='images/entopia.jpg' height='300' width='500'></td>";
+			//Genting Highlands
+			//Genting Highlands photo
+            		echo "<td><img src='genting.jpg' height='300' width='500'></td>";
 			echo "<td>";
 			//title
-			echo "<a href = 'http://www.entopia.com'><font face = 'Showcard Gothic'>Entopia</font></a>";
+			echo "<a href = 'http://www.kuala-lumpur.ws/genting-highland/'><font face = 'Showcard Gothic'>Genting Highlands</font></a>";
 			echo "<br/><br/>";
 			//address
-			echo "<h5 align='left'><b>Address:</b> No.830, Jalan Teluk Bahang, Teluk Bahang, 11050, Pulau Pinang </h5>";
+			echo "<h5 align='left'><b>Address:</b> Genting Highlands, 69000 Genting Highlands, Pahang</h5>";
 			echo "<br/>";
 			//phone
-			echo "<h5 align='left'><b>Phone:</b> 04-888 8111 </h5>";
+			echo "<h5 align='left'><b>Phone:</b> 03-6101 1118 </h5>";
 			echo "<br/>";
 			//description
-           		echo "<h6>Entopia, a tropical sanctuary for our planet's little denizens from those that fly freely in the sky to the ones that creep stealthily beneath the ground. 
-				  Journey into a magical paradise that honours the unsung heroes of our natural world with plenty to discover from outdoor adventures to cavernous mysteries 
-				  and a multi-storey Indoor Discovery Centre.";
+           		echo "<h6>Genting is acknowledged as Malaysia’s premier hillside station; this Kuala Lumpur mountain peak getaway is Malaysia’s 
+					      Asian-style Las Vegas. Renowned for its casino, nightlife and luxury hotels, it features the First World Hotel – which was 
+						  listed as the world's largest hotel in 2006 by the Guinness World Book of Records.";
 			echo "</h6>";		
 			echo "</td>";
         echo "</tr>";
 		
 		echo "<tr>";
             echo "<td>";
-			//Penang heritage 
+			//Cameron Highlands 
 			//title
-			echo "<a href = 'https://www.timetravelturtle.com/george-town-heritage-penang-malaysia/'><font face = 'Showcard Gothic'>Penang Heritage Area</font></a>";
+			echo "<a href = 'https://www.thecrazytourist.com/25-things-to-do-in-the-cameron-highlands-malaysia/'><font face = 'Showcard Gothic'>Cameron Highlands</font></a>";
 			echo "<br/><br/>";
 			//address
-			echo "<h5 align='left'><b>Address:</b> Georgetown, 10200 George Town, Penang </h5>";
-			echo "<br/>";
-			//phone
-			echo "<h5 align='left'><b>Phone:</b> 04-261 6606 </h5>";
+			echo "<h5 align='left'><b>Address:</b> The Cameron Highlands is a district in Pahang. To the north, its boundary touches that of Kelantan; to the west, it shares part 
+												   of its border with Perak. </h5>";
 			echo "<br/>";
 			//description
-            		echo "<h6>The George Town UNESCO World Heritage Site features Malaysia’s best restored and re-adaptive traditional architecture as well as a multitude of heritage trades and arts.
-				  The world-renowned ‘Street of Harmony’ reflects the influence of the diverse communities that have made Penang their home. At only 2.5sq km, the George Town World Heritage 
-				  Site is compact enough to be explored on foot, bicycle or trishaw.";
+            		echo "<h6>Cameron Highlands is the most popular of the highland retreats in Malaysia. Located at almost 2,000 meters at its highest point, it offers 
+							  visitors a moderate climate with daytime temperatures averaging around 25°C and 18°C at night. This makes the environment conducive for growing 
+							  continental plants, fruits and vegetables while providing a cool escape for city-dwellers.";
 			echo "</h6>";		
 			echo "</td>";
-			//Penang Heritage photo
-			echo "<td><img src='images/heritage.jpg' height='300' width='500'></td>";
+			//Cameron Highlands photo
+			echo "<td><img src='cameron.jpg' height='300' width='500'></td>";
         echo "</tr>";
 	   
         echo "</table>";

@@ -2,7 +2,7 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>Bus2u Bus Ticket Page</title>
+<title>Bus2u Home Page</title>
 <meta charset=utf-8>
 </head>
 
@@ -61,11 +61,11 @@
                   echo "</div></td>";
                     
                   echo "<td><div id='busTicketBox'>"; // the third busTicketBox in first row
-                      echo "<img src='images/Negeri Sembilan.jpg' alt='Negeri Sembilan' height='240' width='300'>"; //image
+				  echo "<img src='images/Melaka.jpg' alt='Melaka' height='240' width='300'>"; //image
                       echo "<p>&nbsp;</p>";
-                      echo "<h1>NEGERI SEMBILAN</h1>"; //title
-                      echo "<p>&nbsp;</p> "; 
-                      echo "<p id='busTicketAvailability'>Coming Soon</p>"; //busTicketAvailability
+                      echo "<h1><a href='Melaka.php'>MELAKA</a></h1>"; //title
+                      echo "<p>&nbsp;</p>";
+                      echo "<p id='busTicketAvailability'><font color='green'>Available</font></p>"; //busTicketAvailability
                       echo "<p>&nbsp;</p>";
                   echo "</div></td>";
                           
@@ -74,25 +74,7 @@
                 echo "<tr> ";  //Second table row
     
                   echo "<td><div id='busTicketBox'>"; // the first busTicketBox in second row
-                      echo "<img src='images/Perlis.jpg' alt='Perlis' height='240' width='300'>"; //image
-                      echo "<p>&nbsp;</p>";
-                      echo "<h1>PERLIS</h1>"; //title
-                      echo "<p>&nbsp;</p>";
-                      echo "<p id='busTicketAvailability'>Coming Soon</p>"; //busTicketAvailability
-                      echo "<p>&nbsp;</p>";
-                  echo "</div></td>";
-                    
-                  echo "<td><div id='busTicketBox'>"; // the second busTicketBox in second row
-                      echo "<img src='images/Melaka.jpg' alt='Melaka' height='240' width='300'>"; //image
-                      echo "<p>&nbsp;</p>";
-                      echo "<h1><a href='Melaka.php'>MELAKA</a></h1>"; //title
-                      echo "<p>&nbsp;</p>";
-                      echo "<p id='busTicketAvailability'><font color='green'>Available</font></p>"; //busTicketAvailability
-                      echo "<p>&nbsp;</p>";
-                  echo "</div></td>";
-                    
-                  echo "<td><div id='busTicketBox'>"; // the third busTicketBox in second row
-                      echo "<img src='images/Penang.jpg' alt='PENANG' height='240' width='300'>"; //image
+				  echo "<img src='images/Penang.jpg' alt='PENANG' height='240' width='300'>"; //image
                       echo "<p>&nbsp;</p>";
                       echo "<h1><a href='Penang.php'>PENANG</a></h1>"; //title
                       echo "<p>&nbsp;</p>";
@@ -100,17 +82,35 @@
                       echo " <p>&nbsp;</p>";
                   echo "</div></td>";
                     
+                  echo "<td><div id='busTicketBox'>"; // the second busTicketBox in second row
+					  echo "<img src='images/Perak.jpg' alt='Perak' height='240' width='300'>"; //image
+                      echo "<p>&nbsp;</p>";
+                      echo "<h1><a href='Perak.php'>PERAK</a></h1>"; //title
+                      echo "<p>&nbsp;</p>";
+                      echo "<p id='busTicketAvailability'><font color='green'>Available</font></p>"; //busTicketAvailability
+                      echo "<p>&nbsp;</p>";	
+                  echo "</div></td>";
+                    
+                  echo "<td><div id='busTicketBox'>"; // the third busTicketBox in second row
+				      echo "<img src='images/Negeri Sembilan.jpg' alt='Negeri Sembilan' height='240' width='300'>"; //image
+                      echo "<p>&nbsp;</p>";
+                      echo "<h1>NEGERI SEMBILAN</h1>"; //title
+                      echo "<p>&nbsp;</p> "; 
+                      echo "<p id='busTicketAvailability'>Coming Soon</p>"; //busTicketAvailability
+                      echo "<p>&nbsp;</p>";  				  
+                  echo "</div></td>";
+                    
                   echo "</tr>";
 				  
 				  echo "<tr> ";  //Third table row
     
                   echo "<td><div id='busTicketBox'>"; // the first busTicketBox in third row
-                      echo "<img src='images/Perak.jpg' alt='Perak' height='240' width='300'>"; //image
+					  echo "<img src='images/Perlis.jpg' alt='Perlis' height='240' width='300'>"; //image
                       echo "<p>&nbsp;</p>";
-                      echo "<h1><a href='Perak.php'>PERAK</a></h1>"; //title
+                      echo "<h1>PERLIS</h1>"; //title
                       echo "<p>&nbsp;</p>";
-                      echo "<p id='busTicketAvailability'><font color='green'>Available</font></p>"; //busTicketAvailability
-                      echo "<p>&nbsp;</p>";
+                      echo "<p id='busTicketAvailability'>Coming Soon</p>"; //busTicketAvailability
+                      echo "<p>&nbsp;</p>";	  
                   echo "</div></td>";
                     
                   echo "<td><div id='busTicketBox'>"; // the second busTicketBox in third row

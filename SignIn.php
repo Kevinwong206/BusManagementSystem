@@ -2,7 +2,7 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>Bus2u Home Page</title>
+<title>Bus2u Sign In Page</title>
 <meta charset=utf-8>
 </head>
 

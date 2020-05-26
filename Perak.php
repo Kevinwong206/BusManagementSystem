@@ -2,7 +2,7 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>Bus2u Perak bus ticket</title>
+<title>Bus2u Perak Bus Ticket</title>
 <meta charset=utf-8>
 </head>
 

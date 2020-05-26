@@ -154,11 +154,6 @@
                     echo "<p>&nbsp;</p>";
                     echo "<p>&nbsp;</p>";
                     echo"</table>"; 
-                    
-                    echo "<p>&nbsp;</p>"; //space line to make it organise
-                    echo "<p>&nbsp;</p>";
-                    echo "<p>&nbsp;</p>";
-                    echo "<p>&nbsp;</p>";
     
                 echo"</div>";// end the css of the stateTable
                 echo "<p>&nbsp;</p>";
@@ -174,3 +169,4 @@
 ?>
 </body>
 </html>
+

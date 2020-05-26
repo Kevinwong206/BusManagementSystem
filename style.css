@@ -110,6 +110,36 @@ body {
   font-size: 15px;
 }
 
+/*This is to selecting the font, font size, font color and text shadow of the title of the state in all bus ticket state page*/
+#stateTitle {
+   font-size: 40px;
+   color:darkblue;5
+   font-family: sans-serif;
+   text-shadow: 0px 5px 12px gray;
+   text-align: center; 
+}
+
+/*This is used for the font, font size, font color of the table data of stateTable*/
+#stateTable td{
+   color: black;
+   width:250px;
+   font:40px "arial black";
+   text-align: center;
+}
+
+/* This is view button at the bottom of the table of stateTable*/
+#stateTable button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: darkblue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+
 /*This is to split the About Us page into 2 columns*/
 #aboutus-column {
   float: left;

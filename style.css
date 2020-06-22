@@ -91,9 +91,11 @@ body {
   width: 70%;
 }
 
+
 #home-columnRight{
 	float: right;
-	width: 30%
+	width: 30%;
+  height: 100%;
 }
 
 /* Clear floats after the columns */

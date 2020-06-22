@@ -195,31 +195,30 @@ width:300px;
 background-color: white;
 padding:100px;
 margin:0% auto 0;
-text-align:center
 }
 
 /*This is for selecting the background colour and the size of the font wirtten in the box*/
 #sign-in-form h1{
-    color:#1c8adb;
+    color:#EC7063;
     margin-bottom:50px;
     font-size: 40px;
+    text-align:center;
 }
 
 /*This is the sign up box with the same image with sign in form but diffrent resolution*/
 #sign-up-form{
 width:300px;
-height:440px;
 background-color: white;
 padding:100px;
 margin:0% auto 0;
-text-align:center
 }
 
 /*This is for selecting the background colour and the size of the font wirtten in the box*/
 #sign-up-form h1{
-    color:#1c8adb;
+    color:#EC7063;
     margin-bottom:50px;
     font-size: 40px;
+    text-align:center;
 }
 
 /*Footer */

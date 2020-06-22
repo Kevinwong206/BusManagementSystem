@@ -33,22 +33,27 @@
 		echo "<div id='content2'>";
 		echo "<div id='sign-up-form'>";
                 
-        echo "<h1>Sign Up</h1>";
+        echo "<h1><font face='Impact'>Sign Up</font></h1>";
             echo "<form>";
-                // the details of the Sign up page 
-                echo "<input type='email' id='input-box' placeholder='Email Address '>";
-                echo "<input type='name' id='input-box' placeholder='First Name '>";
-                echo "<input type='name' id='input-box' placeholder='Last Name '>";
-                echo "<input type='password' id='input-box' placeholder='New Password (6 or more characters)'>";
-                echo "<input type='confirm password' id='input-box' placeholder='Confirm Password'>";
-                echo "<input type='phone' id='input-box' placeholder='Phone Number'>";
+                // the details of the Sign up page
+	        echo "<p>Email Address:</p>";
+                echo "<input type='email' id='input-box'>";
+	        echo "<p>First Name:</p>";
+                echo "<input type='name' id='input-box'>";
+	        echo "<p>Last Name:</p>";
+                echo "<input type='name' id='input-box'>";
+	        echo "<p>New Password (6 or more characters):";
+                echo "<input type='password' id='input-box'>";
+	        echo "<p>Confirm Password:</p>";
+                echo "<input type='confirm password' id='input-box'>";
+	        echo "<p>Phone Number:</p>";
+                echo "<input type='phone' id='input-box'>";
                 
                 echo "<p>&nbsp;</p>";
-                echo "<p><span><input type='checkbox'></span>I agree to terms of services</p><br>";
                 echo "<hr>"; // to draw a line
     
                 echo "<p>&nbsp;</p> ";
-                echo "<input type='submit'>"; //submit button
+                echo "<center><input type='submit'></center>"; //submit button
     
             echo "</form> ";
                

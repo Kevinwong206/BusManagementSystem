@@ -42,6 +42,48 @@
 
 		echo "<br /><br />";
 	
+		//Side Bar Row
+        echo "<div id='home-columnRight'>";
+		echo "<div id='home-card'>";
+		echo "<div id='home-container'>";
+		echo "<p>&nbsp;</p>";
+
+		//Side Bar Title
+		echo "<h1 align = 'center'><a href = 'https://www.worldometers.info/coronavirus/'><font face = 'Serif'>Covid-19 Updates</font></a></h1>";
+		echo "<center><img src='images/Corona.jpeg' height='300' width='300'></center>";
+
+		//Sidebar Content
+		//Corona in the whole world
+		echo "<center>";
+		echo "<h2>Coronavirus Cases in the world:</h2></br>";
+		echo "<h2>9,072,657</h2></br>";
+
+		//All corona death
+		echo "<h2>Death: </h2></br>";
+		echo "<h2 style='color:red;'>471,177</h2></br>";
+
+		//All corona recovered
+		echo "<h2>Recovered: </h2></br>";
+		echo "<h2 style='color:green;'>4,855,156</h2></br>";
+
+		//Malaysia Corona Cases
+		echo "<h2>Coronavirus Cases in <b>MALAYSIA</b>: </h2></br>";
+		echo "<h2>8,587</h2></br>";
+
+		//Malaysia Death
+		echo "<h2>Death: </h2></br>";
+		echo "<h2 style='color:red;'>121</h2></br>";
+
+		//Malaysia Recovered
+		echo "<h2>Recovered: </h2></br>";
+		echo "<h2 style='color:green;'>8,177</h2></br>";
+		echo "</center>";
+
+		echo "<p>&nbsp;</p>";
+		echo "</div>"; // end of container 
+		echo "</div>"; // end of card
+		echo "</div>"; // end of column
+
 		//Langkawi row
 		echo "<div id='home-row'>"; 
         echo "<div id='home-column'>";

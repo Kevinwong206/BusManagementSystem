@@ -32,18 +32,18 @@
         echo "<div id='content2'>";
 		echo "<div id='sign-in-form'>";
                 
-        echo "<h1>Sign In</h1>";
+        echo "<h1><font face='Impact'>Sign In</font></h1>";
             echo "<form>";
                 // the details of the Sign in page 
-                echo "<input type='email' id='input-box' placeholder='Your Email'>";
-                echo "<input type='password' id='input-box' placeholder='Your Password'>";
+	        echo "<p>Email:</p>";
+                echo "<input type='email' id='input-box'>";
+	        echo "<p>Password:</p>";
+                echo "<input type='password' id='input-box'>";
+	        echo "<p>&nbsp;</p>";
+		echo "<center><input type='submit'></center>"; //submit button
+	        echo "<p>&nbsp;</p>";
                 echo "<hr>";
-                echo "<p id='or'>OR</p>";
-    
-                echo "<p>&nbsp;</p>";
-                echo "<button type='button' id='facebook-btn'>Login with Facebook</button><br>"; // Log in using facebook
-    
-                echo "<p>&nbsp;</p>";
+	
                 echo "<p>Do you have an account? <a href='SignUp.php'>Sign up</a></p>"; // If user do not have account, this will direct them to sign up
 
             echo "</form> ";

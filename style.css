@@ -85,6 +85,41 @@ body {
    text-align: center;
 }
 
+/*This is to split the Home page into 2 columns*/
+#home-column {
+  float: left;
+  width: 70%;
+}
+
+#home-columnRight{
+	float: right;
+	width: 30%
+}
+
+/* Clear floats after the columns */
+#home-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#home-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+/*Creates a container*/
+#home-container {
+  padding: 0 16px;
+}
+
+/*Clear floats after the container*/
+#home-container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /*This is to selecting the font, font size, font color and text shadow of the title of the bus ticket page*/
 #busTicketTitle{
 	font-size: 40px;
@@ -234,4 +269,3 @@ margin:0% auto 0;
     text-transform: uppercase;
     font-size: 100%;
 }
-

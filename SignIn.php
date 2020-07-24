@@ -1,64 +1,141 @@
-<html lang="en">
-
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<title>Bus2u Sign In Page</title>
-<meta charset=utf-8>
-</head>
-
-<body>
-        <?php 
-        echo "<div id='container'>";
-        echo "<div id='mainpic'>";  
-        //creating a table in the main pain to insert logo picture and the slogan 
-        echo "<table width = '100%' align='left' border='0' >";
-		echo "<tr align = 'left'>";
-            echo "<td width='20%' align='center' ><img src='images/logo.PNG' width='270' height='170.5' ></td>"; //the image
-            echo "<td width='70%' align='right' ><big><font color='#FFFFFF' size='200px' face='arial black'><b>A To B Worry Free&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></font></big></td>"; // the slogan
-        echo "</tr>";
-		echo "</table>";   
-        echo "</div>";
-        
-        echo "<div id='menu'>";
-        	echo "<ul>";//List all the content in the menu and the link of the content
-            	echo "<li class='menuitem'><a href='Home.php'>Home</a></li>";
-                echo "<li class='menuitem'><a href='BusTicket.php'>Bus Ticket</a></li>";
-                echo "<li class='menuitem'><a href='Purchase.php'>Purchase History</a></li>";
-                echo "<li class='menuitem'><a href='AboutUs.php'>About Us</a></li>";
-                echo "<li class='menuitem'><a href='SignIn.php'>Log In/Sign up</a></li>";
-            echo "</ul>";
-        echo "</div>";
-        
-        echo "<div id='content2'>";
-		echo "<div id='sign-in-form'>";
-                
-        echo "<h1><font face='Impact'>Sign In</font></h1>";
-            echo "<form>";
-                // the details of the Sign in page 
-	        echo "<p>Email:</p>";
-                echo "<input type='email' id='input-box'>";
-	        echo "<p>Password:</p>";
-                echo "<input type='password' id='input-box'>";
-	        echo "<p>&nbsp;</p>";
-		echo "<center><input type='submit'></center>"; //submit button
-	        echo "<p>&nbsp;</p>";
-                echo "<hr>";
-	
-                echo "<p>Do you have an account? <a href='SignUp.php'>Sign up</a></p>"; // If user do not have account, this will direct them to sign up
-
-            echo "</form> ";
-               
-        echo "</div>";
-		echo "<p>&nbsp;</p>";
-		echo "<p>&nbsp;</p>";
-		
-		//FOOTER
-		echo "<div id='footer'>";
-		echo "<p>Bus2U Hotline : 0123456789 </p>";
-		echo "</div>";//end of footer
-		
-        echo "</div>";// end the css of the content
-        echo "</div>";// end the container of the content
+<?php
+    if (isset($_POST['submitted'])){ //if form submmited
 ?>
-</body>
-</html>
+    <html lang="en">
+    <head>
+    <title>Sign In Error</title> 
+    </head>
+    <body>
+    <?php
+        include ('Header.php'); // include contents from header.php
+
+        echo "<div id='content2'>";
+       
+        //declare variables
+        $email =$_POST['email'];
+        $password =$_POST['password'];
+
+        // If any of the field is empty
+        if (empty($email) || empty($password)){
+            echo "<div id='sign-in-form'>";
+            echo "<img src='images/user.png' alt='user icon' width='70' height='70'><p>&nbsp;</p>";
+            echo "<h1>Sign In</h1>"; 
+            echo "<form action='SignIn.php' method='post'>"; //create a post method form
+
+            echo"<input type='text' READONLY id='input-box' method='post' name='id' >"; //Will not accept any input
+
+                if (empty($email)) { // if id is empty
+                    echo"<p id='error'>*You did not fill in ID*</p>";
+                }
+
+            echo"<input type='password' READONLY id='input-box' method='post' name='pass' >"; //Will not accept any input
+
+                if (empty($password)) { // if password is empty
+                    echo"<p id='error' >*You did not fill in Password*</p>";
+                }
+
+            echo "<p>&nbsp;</p><hr><p>&nbsp;</p>";
+            echo "<p id='or'>OR</p>";
+            echo "<p>&nbsp;</p>";
+            echo "<button>Try Again ?</button>"; // this button will direct user back to sign in page
+            echo "<p>&nbsp;</p>";
+
+            // If user do not have account, this will direct them to sign up
+            echo "<p>Do you have an account? <a href='SignUp.php'>Sign up</a></p>";
+
+            echo "</form> "; //end form
+            echo "</div>"; // end css of the sign in form
+        }
+
+        // If any of the field is incorrect input
+        else if ($email != "Superman" || $password != "Wonderwoman"){
+            echo "<div id='sign-in-form'>";
+            echo "<img src='images/user.png' alt='user icon' width='70' height='70'><p>&nbsp;</p>";
+            echo "<h1>Sign In</h1>"; 
+            echo "<form action='SignIn.php' method='post'>"; //create a post method form
+
+            echo"<input type='text' READONLY id='input-box' method='post' name='id' >"; //Will not accept any input
+
+                if ($email != "Superman") { // If the user enters different ID will have error
+                    echo"<p id='error' >*Incorrect ID*</p>";
+                }
+
+            echo"<input type='password' READONLY id='input-box' method='post' name='pass' >"; //Will not accept any input
+
+                if ($password != "Wonderwoman") { // If the user enters different password will have error
+                    echo"<p id='error' >*Incorrect Password*</p>";
+                }
+            
+            echo "<p>&nbsp;</p><hr><p>&nbsp;</p>";
+            echo "<p id='or'>OR</p>";
+            echo "<p>&nbsp;</p>";
+            echo "<button>Try Again ?</button>"; // this button will direct user back to sign in page
+            echo "<p>&nbsp;</p>";
+
+            // If user do not have account, this will direct them to sign up
+            echo "<p>Do you have an account? <a href='SignUp.php'>Sign up</a></p>";
+
+            echo "</form> "; // end form
+            echo "</div>"; // end css of the sign-in-form
+        }
+
+        //Succesful Login
+        else{
+            echo "<div id='sign-in-form'>";
+            echo "<h1>Login Successful!</h1>";
+            echo "<h1>Welcome $email</h1>";
+            echo "</div>"; // end the css of the sign-in-from
+        }
+        echo "<p>&nbsp;</p>";
+        include ('Footer.php');
+        echo "</div>";// end the css of the content4
+        echo "</div>";// end the css for the container
+?>
+        </body>
+        </html>
+<?php
+    }
+    else { //If form not submitted 
+?>
+    <html>
+    <head>
+    <title>Sign In Page</title>
+    <?php
+        include ('Header.php') // include contents from header.php
+    ?>
+    </head>
+    <body>
+    <?php 
+        echo "<div id='content2'>";
+        echo "<div id='sign-in-form'>";
+        echo "<img src='images/user.png' alt='user icon' width='70' height='70'><p>&nbsp;</p>";
+       
+        // Title for the page      
+        echo "<h1><font face='Impact'>Sign In</font></h1>";
+        echo "<form action='SignIn.php' method='post'>";
+
+                //input details
+                echo "<p>Email:</p>";
+                echo "<input type='text' name = 'email' id='input-box'>";
+                echo "<p>Password:</p>";
+                echo "<input type='password' name = 'password' id='input-box'>";
+                echo "<p>&nbsp;</p>";
+                echo "<button type='submit' name='submit'>Sign In</button>"; 
+                echo "<input type='hidden' name='submitted' value='true'><br>";
+                echo "<p>&nbsp;</p><hr><p>&nbsp;</p>";
+                echo "<p>Do you have an account? <a href='SignUp.php'>Sign up</a></p>"; 
+                // If user do not have account, this will direct them to sign up
+
+        echo "</form> ";
+        echo "</div>"; // end sign-in-form css
+
+        include ('Footer.php'); // include contents from footer.php
+
+        echo "</div>";// end content css
+        echo "</div>";// end container css
+    ?>
+    </body>
+    </html>
+<?php
+}
+?>

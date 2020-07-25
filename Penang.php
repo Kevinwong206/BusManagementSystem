@@ -48,7 +48,8 @@
                         echo"<tr>";
                             echo"<td colspan='3'>Georgetown</td>"; //Make 3 column span
                         echo"</tr>";
-    
+                    
+                    echo "<form action='ViewTicket.php' method='post'>"; 
                         echo"<tr>";
                             echo"<td><img src='images/images_penang/images_Georgetown/george2.PNG' alt='Georgetown Road' height='300' width='300'></td>";
                             echo"<td><img src='images/images_penang/images_Georgetown/george1.JPG' alt='Kek Lok Si' height='300' width='300'></td>";
@@ -62,9 +63,11 @@
                         echo"</tr>";
     
                         echo"<tr>";
-                            echo"<td colspan='3'><a href='Home.php'><p><button>View Ticket</button></a></p>"; //Make 3 column span
+                            echo"<input type='hidden' method='post' name='location' value='Georgetown - Penang' >";
+                            echo"<td colspan='3'><p><button>View Ticket</button></a></p>"; //Make 3 column span
                         echo"</tr>";
                     echo"</table>"; 
+                    echo"</form>";
                  
                     echo "<p>&nbsp;</p>"; //space line to make it organise
                     echo "<p>&nbsp;</p>";
@@ -77,6 +80,7 @@
                             echo"<td colspan='3'>Bayan Lepas</td>"; //Make 3 column span
                         echo"</tr>";
     
+                    echo "<form action='ViewTicket.php' method='post'>"; 
                         echo"<tr>";
                             echo"<td><img src='images/images_penang/images_BayanLepas/lepas1.JPG' alt='QueensbayMall' height='300' width='300'></td>";
                             echo"<td><img src='images/images_penang/images_BayanLepas/lepas2.JPG' alt='Super Tanker' height='300' width='300'></td>";
@@ -90,9 +94,11 @@
                         echo"</tr>";
     
                         echo"<tr>";
-                            echo"<td colspan='3'><a href='Home.php'><p><button>View Ticket</button></a></p>"; //Make 3 column span
+                            echo"<input type='hidden' method='post' name='location' value='Bayan Lepas - Penang' >";
+                            echo"<td colspan='3'><p><button>View Ticket</button></a></p>"; //Make 3 column span
                         echo"</tr>"; 
                     echo"</table>"; 
+                    echo"</form>";
                  
                     echo "<p>&nbsp;</p>"; //space line to make it organise
                     echo "<p>&nbsp;</p>";

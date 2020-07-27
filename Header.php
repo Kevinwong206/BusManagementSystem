@@ -34,8 +34,8 @@
 	//start the session
 	session_start ();
 		
-	if (isset($_SESSION['email'])) {
-	    $id = $_SESSION['email'];
+	if (isset($_SESSION['id'])) {
+	    $id = $_SESSION['id'];
 	}	
 		
     echo "<div id='container'>";
@@ -52,8 +52,8 @@
         
     echo "<div id='menu'>";
 	
-	if (isset($_SESSION['email'])) {
-	    $id = $_SESSION['email'];
+	if (isset($_SESSION['id'])) {
+	    $id = $_SESSION['id'];
 		//show user id on the header if the user has logged in
 		echo"<p2>Welcome to BUS2U, $id !</p2>";
 	}
@@ -68,7 +68,7 @@
         echo "</ul>";
 		
      //Log out option
-	 if (isset($_SESSION['email'])){
+	 if (isset($_SESSION['id'])){
         echo "<p3><a href='Home.php?logout=1'><font color='red'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log Out</font></a></p3>"; 
      }
 	 

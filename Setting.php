@@ -100,6 +100,9 @@
 	   echo "<tr>";
 	   echo"<td></td><td></td><td></td><td><br><button>Submit</button></td>";
 	   echo"<input type='hidden' name='submittedd' value='true'><br></tr>";
+	   echo "</table>";
+	   
+	   include("Footer.php");
 	   
 	   //store the user settings in the cookies
 	   if(isset($_POST['submittedd'])) {

@@ -346,6 +346,131 @@ button{
  text-align: center;
 }
 
+.table-bar{
+  text align:center;
+  font-size: 12.2px;
+  display:inline-flex;
+  list-style: none;
+  width:100%;
+  color:black;
+}
+
+#input-DestinationMainBox 
+{ 
+    border-radius: 20px;
+    padding:10px;
+    margin: 10px 0 ;
+    width:100%;
+    border: 1px solid #999;
+    outline: none;
+    background-color: white;
+}
+
+#input-DestinationBox
+{
+    border-radius: 20px;
+    padding:10px;
+    margin-top:10px ;
+    margin-left:5px ;
+    width: 12.5%;
+    border: 1px solid #999;
+    outline: none;
+    background-color: white;
+
+}
+
+#input-DestinationSubBox 
+{ 
+    border-radius: 20px;
+    padding:10px;
+    margin: 10px 0;
+    width:100%;
+    border: 1px solid #999;
+    outline: none;
+    background-color: white;
+
+}
+
+#input-DestinationsSubSubBox
+{
+    border-radius: 20px;
+    padding:10px;
+    margin: 10px 0;
+    width:100%;
+    border: 1px solid #999;
+    outline: none;
+    background-color: white;
+
+
+}
+
+#input-DestinationsSubBoxBox
+{
+    border-radius: 20px;
+    padding:10px;
+    margin-top: -30px ;
+    margin-left: 105px;
+    width:90%;
+    border: 1px solid #999;
+    outline: none;
+    background-color: white;
+    color:black;
+
+}
+
+
+
+.table-bar li a
+{
+  display:inline-flex;
+  list-style: none;
+  text-decoration:none;
+  color:black;
+
+}
+
+.sub-menu1
+{
+  display: none;
+  list-style: none;
+}
+
+.table-bar li:hover .sub-menu1
+{
+  display: block;
+  position: absolute;
+  margin-top: 2px;
+  margin-right: 60px;
+  color:black;
+}
+
+.table-bar li:hover .sub-menu1 ul 
+{
+  display:block;
+  margin-right: 60px;
+
+}
+
+.table-bar li:hover .sub-menu1 ul li
+{
+  list-style: none;
+}
+
+.sub-menu2
+{
+  display: none;
+}
+
+.hover-me:hover .sub-menu2
+{
+  position:absolute;
+  display: block;
+  margin-left: 20px;
+  margin-top: 1px;
+  background-color: white;
+}
+
+
 #thankyou {
    font-size: 40px;
    color:maroon;5
@@ -369,3 +494,4 @@ text-align: center;
    text-shadow: 0px 5px 12px gray;
    text-align: center; 
 }
+

@@ -66,7 +66,7 @@
                     
                     <td style='width:170px;'><p><?php echo $row ['baggage_weight'];?></p></td>
                                        
-                    <td style='width:100px;'><a href="PurchaseUpdate.php?id=<?php echo $row['ticket_id'] ?>">Edit</a></td>
+                    <td style='width:100px;'><a href="PurchaseUpdate.php?purchaseid=<?php echo $row['purchase_id'] ?>">Edit</a></td>
                     
                     <td style='width:100px;'><a href="PurchaseDelete.php?id=<?php echo $row['purchase_id'] ?>">Delete</a></td>
                 <?php

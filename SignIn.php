@@ -81,6 +81,9 @@
 
         //Succesful Login
         else{
+			//store the username in the session
+		    $_SESSION['email'] = $_POST['email'];
+		
             echo "<div id='sign-in-form'>";
             echo "<h1>Login Successful!</h1>";
             echo "<h1>Welcome $email</h1>";

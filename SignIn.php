@@ -12,7 +12,7 @@
         echo "<div id='content2'>";
        
         //declare variables
-        $email =$_POST['email'];
+        $id =$_POST['id'];
         $password =$_POST['password'];
 
         // If any of the field is empty
@@ -24,7 +24,7 @@
 
             echo"<input type='text' READONLY id='input-box' method='post' name='id' >"; //Will not accept any input
 
-                if (empty($email)) { // if id is empty
+                if (empty($id)) { // if id is empty
                     echo"<p id='error'>*You did not fill in ID*</p>";
                 }
 
@@ -48,7 +48,7 @@
         }
 
         // If any of the field is incorrect input
-        else if ($email != "Superman" || $password != "Wonderwoman"){
+        else if ($id != "Superman" || $password != "Wonderwoman"){
             echo "<div id='sign-in-form'>";
             echo "<img src='images/user.png' alt='user icon' width='70' height='70'><p>&nbsp;</p>";
             echo "<h1>Sign In</h1>"; 
@@ -56,7 +56,7 @@
 
             echo"<input type='text' READONLY id='input-box' method='post' name='id' >"; //Will not accept any input
 
-                if ($email != "Superman") { // If the user enters different ID will have error
+                if ($id != "Superman") { // If the user enters different ID will have error
                     echo"<p id='error' >*Incorrect ID*</p>";
                 }
 
@@ -82,11 +82,11 @@
         //Succesful Login
         else{
 			//store the username in the session
-		    $_SESSION['email'] = $_POST['email'];
+		    $_SESSION['id'] = $_POST['id'];
 		
             echo "<div id='sign-in-form'>";
             echo "<h1>Login Successful!</h1>";
-            echo "<h1>Welcome $email</h1>";
+            echo "<h1>Welcome $id</h1>";
             echo "</div>"; // end the css of the sign-in-from
         }
         echo "<p>&nbsp;</p>";
@@ -118,8 +118,8 @@
         echo "<form action='SignIn.php' method='post'>";
 
                 //input details
-                echo "<p>Email:</p>";
-                echo "<input type='text' name = 'email' id='input-box'>";
+                echo "<p>ID:</p>";
+                echo "<input type='text' name = 'id' id='input-box'>";
                 echo "<p>Password:</p>";
                 echo "<input type='password' name = 'password' id='input-box'>";
                 echo "<p>&nbsp;</p>";

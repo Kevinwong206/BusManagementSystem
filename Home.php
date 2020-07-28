@@ -11,14 +11,7 @@
         <?php 
 		
 		include ('Header.php');
-		
-		//store the users preference into cookies 
-	    if(isset($_POST['submittedd'])) {
-			setcookie('country',$_POST['country']);
-			setcookie('language',$_POST['language']);
-			setcookie('currency',$_POST['currency']);
-		}
-		
+	
 		if(isset($_COOKIE['country'])) {
 			$country = $_COOKIE['country'];
 		}
